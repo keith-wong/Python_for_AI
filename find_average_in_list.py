@@ -1,7 +1,7 @@
 # this program is to find the average in a list of numbers
 
-count = 0
-sum = 0
+count = 0  # create a counter 
+sum = 0     # create variable sum
 print ("Before average : ", count, sum)
 
 for value in [9, 41, 12, 3, 74, 15]:
