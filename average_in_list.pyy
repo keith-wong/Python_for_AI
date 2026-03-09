@@ -1,0 +1,18 @@
+sum = 0 #set sum to zero
+count = 0 #set counter to zero
+
+
+while True:
+	inp = input("enter a number  :/n" )
+	value = float(inp)
+	if inp =="done": 
+		break
+	sum = sum + value
+	count = count + 1
+
+average = sum / count
+
+print ("average", average)
+
+
+
